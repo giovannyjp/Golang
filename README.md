@@ -10,7 +10,7 @@ Regardless of whether or not we swap the numbers, we then move on to the next co
 Walking through an example of comparing and swapping items
 This is much clearer with an example, so lets go back to the original example of 5, 4, 2, 3, 1, 0.
 
-Our bubble sort algorithm can be broken into roughly two pieces. The first is what we have spent most of this article discussing - walking through the list comparing consecutive pairs of numbers. Every time we do a full pass of the list we will look at N - 1 pairs of numbers.
+Our bubble sort algorithm can be broken into roughly two pieces. Walking through the list comparing consecutive pairs of numbers. Every time we do a full pass of the list we will look at N - 1 pairs of numbers.
 
 The second part is repeating this walk-through of the list. As we discussed early, in the worst case we would need to repeat this N times, so we end up doing N - 1 comparisons N times, giving us N * (N - 1).
 
